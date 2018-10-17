@@ -1,0 +1,92 @@
+
+body{
+	background : url('images/header-unejacid-compressor.jpg') no-repeat scroll;
+	background-size: 100% 100%;
+	min-height: 500px;
+	margin: 0%;
+	padding: 0%;
+
+}
+
+.header{
+	background-color: rgb(119, 136, 153);
+	width: 100%;
+	height: 100px;
+	border: 0px solid;
+
+
+}
+.logo{
+
+	width: 80px;
+	height: 80px;
+	margin: 1%;
+	float: left;
+	margin-top: 1.5%;
+	margin-left: 5%;
+
+
+}
+
+.title{
+	width: 50%;
+	height: 50px;
+	margin: 1%;
+	margin-left: 2px;
+	float: left;
+	font-size: 10px;
+	line-height: 20px;
+	
+}
+
+.menu {
+	width: 100%;
+	height: 40px;
+	background-color: lightgrey;
+	padding: 0%;
+}
+.menu ul a{
+	text-decoration:none;
+	position: relative;
+
+}
+.menu ul li{
+	width: 100px;
+	height: 40px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+}
+.menu ul li:hover{
+	position: relative;
+	background-color: white; 
+}
+.menu ul li ul{
+	display: none;
+	position: absolute;
+    left: 0;
+    top: 100%;
+}
+.menu ul li:hover ul{
+	display: block;
+}
+.menu ul li ul li{
+	background-color: lightgrey;
+
+}
+
+.content {
+
+	padding-top:0%;
+
+}
+h2{
+	color: black;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 45px;
+	
+}
+
